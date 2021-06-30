@@ -1,0 +1,2 @@
+rootProject.name = "Ziki"
+include ':app'

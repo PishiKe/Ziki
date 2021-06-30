@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ziki</string>
+    <string name="library">LIBRARY</string>
+    <string name="playlists">PLAYLISTS</string>
+    <string name="genre">GENRE</string>
+    <string name="artist_name">artist name</string>
+    <string name="song_name">song name</string>
+    <string name="album_art_description"> album art work</string>
+    <string name="play_pause_button_description">play pause button</string>
+    <string name="next_button_description">next button</string>
+    <string name="previous_button_description">previous button</string>
+    <string name="play_button_description">play button</string>
+    <string name="pause_button_description">pause button</string>
+    <string name="minimize_button_description"> minimize music player</string>
+    <string name="shuffle_button_description">shuffle button</string>
+    <string name="music_list_description"> music list button</string>
+    <string name="splash_screen_desc">splash screen</string>
+
+</resources>
