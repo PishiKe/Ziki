@@ -9,6 +9,7 @@ class MaximizedPlayer : AppCompatActivity() {
 
     private lateinit var binding: ActivityMaximizedPlayerBinding
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maximized_player)

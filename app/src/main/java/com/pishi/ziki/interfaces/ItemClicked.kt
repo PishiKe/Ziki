@@ -1,4 +1,4 @@
-package com.pishi.ziki
+package com.pishi.ziki.interfaces
 
 interface itemClicked {
 

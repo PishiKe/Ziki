@@ -15,12 +15,12 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pishi.ziki.adapters.AllMusicAdapter
-import com.pishi.ziki.Music
+import com.pishi.ziki.dataClass.Music
 import com.pishi.ziki.R
 import com.pishi.ziki.databinding.ActivityHomeLibraryBinding
-import com.pishi.ziki.itemClicked
+import com.pishi.ziki.interfaces.itemClicked
 
-class HomeLibraryActivity : AppCompatActivity(), itemClicked {
+open class HomeLibraryActivity : AppCompatActivity(), itemClicked {
 
     private lateinit var binding: ActivityHomeLibraryBinding
     private lateinit var musicList: MutableList <Music>

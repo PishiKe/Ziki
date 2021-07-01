@@ -1,4 +1,4 @@
-package com.pishi.ziki
+package com.pishi.ziki.dataClass
 
 data class Music(
             var artistName : String,

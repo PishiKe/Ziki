@@ -5,9 +5,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.pishi.ziki.Music
+import com.pishi.ziki.dataClass.Music
 import com.pishi.ziki.R
-import com.pishi.ziki.itemClicked
+import com.pishi.ziki.interfaces.itemClicked
 
 class AllMusicAdapter(private var musicList: MutableList <Music>, private var itemClicked: itemClicked):
         RecyclerView.Adapter<AllMusicAdapter.AllMusicViewHolder>() {
