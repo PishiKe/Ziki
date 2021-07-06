@@ -1,4 +1,4 @@
-package com.pishi.ziki.activities
+package com.pishi.ziki
 
 import android.content.pm.PackageManager
 import android.database.Cursor
@@ -16,7 +16,6 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pishi.ziki.adapters.AllMusicAdapter
 import com.pishi.ziki.dataClass.Music
-import com.pishi.ziki.R
 import com.pishi.ziki.databinding.ActivityHomeLibraryBinding
 import com.pishi.ziki.interfaces.itemClicked
 
