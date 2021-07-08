@@ -1,4 +1,4 @@
-package com.pishi.ziki.activities
+package com.pishi.ziki
 
 import android.content.Intent
 import android.os.Build
@@ -10,7 +10,6 @@ import android.view.WindowInsets
 import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
-import com.pishi.ziki.R
 import com.pishi.ziki.databinding.ActivitySplashScreenBinding
 
 class SplashScreenActivity : AppCompatActivity() {
